@@ -1,0 +1,17 @@
+			b = ""
+			k = []
+			for l in str(i):
+				k.append(l)
+			for j in k:
+				try:
+					b += k[k.index(j)+u]
+				except:
+					break
+			b += k[0]
+			print k
+			print b
+			if isPrime(int(b)):
+				#print i
+				a += 1
+			else:
+				break
